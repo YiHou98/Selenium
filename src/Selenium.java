@@ -10,7 +10,7 @@ public class Selenium {
     public static void main(String[] args) {
  
         
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\yi.a.hou\\OneDrive - Accenture\\Documents\\SideofDesk\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "your path");
         WebDriver driver = new ChromeDriver();
  
         String url = "https://www.lambdatest.com/";
@@ -32,11 +32,11 @@ public class Selenium {
  
         email.clear();
         System.out.println("Entering the email");
-        email.sendKeys("houyipkuer@gmail.com");
+        email.sendKeys("your email");
  
         password.clear();
         System.out.println("entering the password");
-        password.sendKeys("atomic2023");
+        password.sendKeys("your password");
  
         System.out.println("Clicking login button");
         loginButton.click();
